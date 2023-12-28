@@ -1,0 +1,65 @@
+{
+  "name": "Midnight Theme",
+  "author": "disaded",
+  "dark": true,
+  "colors": {
+    "primaryColor": "#393a3d",
+    "secondaryColor": "#414245",
+    "color1": "#2f3032",
+    "color2": "#333436",
+    "color3": "#2f65ca",
+    "color4": "#2D384C",
+    "color5": "#333336",
+    "color6": "#2E3D5A",
+    "color7": "#727380",
+    "color8": "#00000000",
+    "color9": "#CFD2D5",
+    "color10:": "#00000033"
+  },
+  "ui": {
+    "*": {
+      "background": "color1",
+      "disabledBackground": "color1",
+      "inactiveBackground": "color2",
+      "selectionBackground": "color3",
+      "selectionInactiveBackground": "color4",
+      "lightSelectionBackground": "primaryColor",
+      "lightSelectionInactiveBackground": "color1",
+      "borderColor": "secondaryColor",
+      "disabledBorderColor": "color5",
+      "separatorForeground": "secondaryColor",
+      "separatorColor": "secondaryColor",
+      "lineSeparatorColor": "secondaryColor"
+    },
+    "Borders": {
+      "color": "secondaryColor",
+      "ContrastBorderColor": "secondaryColor"
+    },
+    "Tree.rowHeight": 20,
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "color6",
+        "unmatchedForeground": "color7"
+      },
+      "FileHistory.Commit.selectedBranchBackground": "color6"
+    },
+    "DefaultTabs": {
+      "hoverBackground": "color8",
+      "underlineColor": "color3",
+      "underlinedTabBackground": "primaryColor"
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedForeground": "color9",
+        "selectedBackground": "primaryColor"
+      }
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "primaryColor",
+      "underlinedTabForeground": "color9"
+    },
+    "ToolWindow.HeaderTab": {
+      "underlinedTabBackground": "primaryColor"
+    }
+  }
+}
