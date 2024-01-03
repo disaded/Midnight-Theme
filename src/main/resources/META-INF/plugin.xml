@@ -3,6 +3,48 @@
     <id>com.github.disaded.midnighttheme</id>
     <name>Midnight Theme</name>
     <vendor>disaded</vendor>
+Ï
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+     Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+     Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    Midnight Theme is a sleek, modern programming theme designed for developers who love working into the late hours.
+    <br/>
+    Its dark color palette, with a subtle hint of gray silver,
+    <br/>
+    creates a serene and focused coding environment, perfect for night-time coding sessions.
+    <br/>
+    For JetBrains IDEs, version 2023.2 and above.
+    <br/>
+
+    To install:
+      <ul>
+      <li>
+      Using the IDE built-in plugin system:
+      <br/>
+      <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Midnight-Theme"</kbd> >
+  <kbd>Install</kbd>
+      </li>
+      <li>
+      Manually:
+      <br/>
+      Download the <a href="https://github.com/disaded/Midnight-Theme/releases/latest">latest release</a> and install it manually using
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
+      </li>
+      </ul>
+      <br/>
+      <a href="https://github.com/disaded/Midnight-Theme/issues">Report an issue</a>  |  <a href="https://github.com/disaded/Midnight-Theme">On GitHub</a>
+      <br/><br/><br/>
+
+      <img src="https://github.com/disaded/Midnight-Theme/tree/main/src/main/resources/screenshots/1.png"
+      border="0" width="700" alt="Main window screenshot">
+  ]]></description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+    Initial release of the theme.
+  ]]></change-notes>
 
     <depends>com.intellij.modules.platform</depends>
 
